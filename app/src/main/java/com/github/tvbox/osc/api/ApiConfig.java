@@ -98,8 +98,6 @@ public class ApiConfig {
   String apiFix = apiUrl;
         if (apiUrl.startsWith("clan://")) {
             apiFix = clanToAddress(apiUrl);
-        } else if(!apiUrl.startsWith("http")){
-            apiFix = "http://" + apiFix;
         }  else if (apiUrl.startsWith("asset://")) {
             try {
                 String config = readAssetsText(apiUrl.replace("asset://",""));
