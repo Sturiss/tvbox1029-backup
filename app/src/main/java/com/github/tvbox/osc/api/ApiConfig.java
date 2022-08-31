@@ -95,20 +95,15 @@ public class ApiConfig {
                 th.printStackTrace();
             }
         }
-  String apiFix = apiUrl;
+     String apiFix = apiUrl;
         if (apiUrl.startsWith("clan://")) {
             apiFix = clanToAddress(apiUrl);
-        }  else if (apiUrl.startsWith("asset://")) {
-            try {
-                String config = readAssetsText(apiUrl.replace("asset://",""));
-                parseJson(apiUrl, config);
-                callback.success();
-            } catch (Throwable th) {
-                th.printStackTrace();
-                callback.error("解析配置失败");
-            }
-            return;
-        }       
+        }else if(!apiUrl.startsWith("http")){
+            apiFix = "http://" + apiFix;
+        }
+
+
+
         OkGo.<String>get(apiFix)
                 .execute(new AbsCallback<String>() {
                     @Override
