@@ -13,7 +13,7 @@
         android:lineSpacingExtra="@dimen/ts_50"
         android:lineSpacingMultiplier="0"
         android:textColor="@color/color_CC000000"
-        android:text="{自定义}影院\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何视频的制作, 上传, 储存, 下载等内容。\n 软件仅供学习参考,不得用于商业用途，请于安装后24小时内删除。"        
+        android:text="          {自定义}影院\1、软件名称自定义更换。\n2、软件图标自定义更换。\n3、软件背景显示自定义更换\n4、本软件可安装在Android系统的手机、平板和电视机上使用。\n本软件只提供聚合展示功能，所有资源来自网络, 本软件不参与任何视频的制作、 上传、 储存、下载等侵权行为。\n 软件仅供学习参考,不得用于商业用途，请于安装后24小时内删除。"        
         android:textSize="@dimen/ts_24" />
 
 </LinearLayout>
