@@ -1,8 +1,8 @@
 
 {
 
-"spider":"https://神器每日推送.tk/jar",
-"wallpaper":"http://www.kf666888.cn/api/tvbox/img",
+"spider":"asset：//LionMovies/jar902.jar;md5;72516081fdbc90a08d4cdaa98be6de5b",
+//"wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly94bi0tbTdyNDEyYWR2YjkyajIxc3Q2NWEudGsvdHYudHh0Cg=="]}]}],
 
 "sites":[
