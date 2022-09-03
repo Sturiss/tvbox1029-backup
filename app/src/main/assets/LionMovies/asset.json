@@ -6,13 +6,8 @@
 "lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly94bi0tbTdyNDEyYWR2YjkyajIxc3Q2NWEudGsvdHYudHh0Cg=="]}]}],
 
 "sites":[
-{"key":"csp_GitCafe", "name":"📜小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
-{"key":"Yisou",       "name":"😺易搜(搜索)","type":3,"api":"csp_Yiso","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
-{"key":"csp_Alips",   "name":"😺喵搜(搜索)","type":3,"api":"csp_AliPanSou","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
-{"key":"Zhaozy",      "name":"😺找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
-{"key":"push_agent",  "name":"🐱推送(爱优腾/云盘/磁力)","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"4acb3ad2f2254ba1b566279f7cd98ba3"},
 
-	
+{"key":"csp_77","name":"🎬77(SP)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},		
 {"key":"KanSJ_spider","name":"🗽看视界(SP)","api":"csp_KanSJ","type":3,"filterable":1,"quickSearch":1,"searchable":1},
 {"key":"csp_kuaikan","name":"👀快看(SP)","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"spider_IKan","name":"💖爱看(SP)","type":3,"api":"csp_IKan","quickSearch":1,"searchable":1,"filterable":1},
@@ -23,7 +18,12 @@
 {"key":"csp_Auete","name":"🏝Auete(SP)","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_zxzj","name":"📗在线之家(SP)","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Czsapp","name":"📔厂长(SP)","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_77","name":"🎬77(SP)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},	
+	
+{"key":"csp_GitCafe", "name":"📜小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
+{"key":"Yisou",       "name":"😺易搜(搜索)","type":3,"api":"csp_Yiso","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
+{"key":"csp_Alips",   "name":"😺喵搜(搜索)","type":3,"api":"csp_AliPanSou","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
+{"key":"Zhaozy",      "name":"😺找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
+{"key":"push_agent",  "name":"🐱推送(爱优腾/云盘/磁力)","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"4acb3ad2f2254ba1b566279f7cd98ba3"},
 
 {"key":"360_spider","name":"📺360(解析)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_DiDuan" ,"name":"🐞低端影视(SP)","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0},
