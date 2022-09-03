@@ -5,13 +5,13 @@
             <corners android:radius="@dimen/vs_5" />
             <!--  选中按钮颜色   -->
             <!--<solid android:color="@color/color_353744" />-->
-            <solid android:color="@color/color_1890FF" />
+            <solid android:color="@@color/color_1890FF" />
         </shape>
     </item>
     <item android:state_focused="false">
         <shape>
             <corners android:radius="@dimen/vs_5" />
-            <solid android:color="@color/color_BD0CADE2" />
+            <solid android:color="@color/color_CC353744" />
         </shape>
     </item>
 </selector>
