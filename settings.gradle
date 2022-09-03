@@ -1,3 +1,3 @@
-rootProject.name = "Lion Movies"
+rootProject.name = "小丽追剧神器"
 include ':app'
 include ':player'
