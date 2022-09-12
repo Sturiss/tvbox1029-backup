@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:lineSpacingExtra="@dimen/ts_50"
         android:lineSpacingMultiplier="0"
-        android:text="私人影院定制\n\1、定制属于自己的追剧神器。\n2、软件图标、名称、背景显示等自定义更换。\n3、本软件可安装在Android系统的手机、平板和电视机上使用。\n\n本软件只提供聚合展示功能，所有资源来自网络, 本软件不参与任何视频的制作、 上传、 储存、下载等侵权行为。\n软件仅供学习参考,不得用于商业用途，请于安装后24小时内删除。"        
+        android:text="私人影院定制服务\n\1、定制属于自己的追剧神器。\n2、软件图标、名称、背景显示等自定义更换。\n3、本软件可安装在Android手机、平板和电视上使用。\n所有资源来自网络，本软件只提供聚合展示功能，不参与任何视频的制作、 上传、 储存、下载等侵权行为。\n软件仅供学习参考,不得用于商业用途，请于安装后24小时内删除。"        
         android:textColor="@color/color_CC000000"
         android:textSize="@dimen/ts_24" />
 
