@@ -179,7 +179,12 @@ public class HomeActivity extends BaseActivity {
                     if ((baseLazyFragment instanceof GridFragment) && !sortAdapter.getItem(position).filters.isEmpty()) {// 弹出筛选
                         ((GridFragment) baseLazyFragment).showFilter();
                     } else if (baseLazyFragment instanceof UserFragment) {
-                        showSiteSwitch();
+                      Intent intent =new Intent(getApplicationContext(), HomeActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        Bundle bundle = new Bundle();
+                        bundle.putBoolean("useCache", true);
+                        intent.putExtras(bundle);
+                        HomeActivity.this.startActivity(intent);
                     }
                 }
             }
@@ -198,6 +203,14 @@ public class HomeActivity extends BaseActivity {
                     return true;
                 }
                 return false;
+            }
+        });
+       tvName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dataInitOk = false;
+                jarInitOk = true;
+                showSiteSwitch();
             }
         });
         setLoadSir(this.contentLayout);
@@ -572,6 +585,12 @@ public class HomeActivity extends BaseActivity {
                 @Override
                 public void click(SourceBean value, int pos) {
                     ApiConfig.get().setSourceBean(value);
+                    Intent intent =new Intent(getApplicationContext(), HomeActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    Bundle bundle = new Bundle();
+                    bundle.putBoolean("useCache", true);
+                    intent.putExtras(bundle);
+                    HomeActivity.this.startActivity(intent);
                 }
 
                 @Override
