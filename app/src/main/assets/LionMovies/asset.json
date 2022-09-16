@@ -7,21 +7,21 @@
 
 "sites":[
 
-{"key":"csp_KanSJ","name":"🗽看视界","api":"csp_KanSJ","type":3,"filterable":1,"quickSearch":1,"searchable":1},
-{"key":"csp_77","name":"🎬 77(SP)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},	
-{"key":"csp_GitCafe","name":"📜纸条(SP)","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
-{"key":"csp_AppTT","name":"🐰图图(SP)","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_Bd","name":"💥哔嘀(SP)","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},	
-{"key":"csp_kuaikan","name":"👀快看(SP)","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_Lezhu","name":"🐷乐猪(SP)","type":3,"api":"csp_Lezhu","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_Cokemv","name":"📕Cok(SP)","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_Lib","name": "🎉Lib(SP)","type": 3,"api": "csp_Lib","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key":"csp_Auete","name":"🏝Aue(SP)","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_Czsapp","name":"📔厂长(SP)","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
-{"key": "csp_BBB",           "name":"🅱️哔哩自定义","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/app/src/main/assets/LionMovies/MaooXP/bilirch.json"},
-{"key":"Yisou","name":"😺易搜(搜索)","type":3,"api":"csp_Yiso","searchable":1,"quickSearch":1,"filterable":0,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
-{"key":"csp_Alips","name":"😺喵搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
-{"key":"Zhaozy","name":"😺找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
+{"key":"csp_KanSJ",    "name":"🗽生日钞线路一","api":"csp_KanSJ","type":3,"filterable":1,"quickSearch":1,"searchable":1},
+{"key":"csp_77",       "name":"🎬生日钞线路二","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},	
+{"key":"csp_GitCafe",  "name":"📜生日钞线路三","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
+{"key":"csp_AppTT",    "name":"🐰生日钞线路四","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Bd",       "name":"💥生日钞线路五","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},	
+{"key":"csp_kuaikan",  "name":"👀生日钞线路六","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Lezhu",    "name":"🐷生日钞线路七","type":3,"api":"csp_Lezhu","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Cokemv",   "name":"📕生日钞线路八","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Lib",      "name": "🎉生日钞线路九)","type": 3,"api": "csp_Lib","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key":"csp_Auete",    "name":"🏝生日钞线路十","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Czsapp",   "name":"📔生日钞线路十一","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
+{"key": "csp_BBB",     "name":"🅱️生日钞线路十二","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/app/src/main/assets/LionMovies/MaooXP/bilirch.json"},
+{"key":"Yisou",        "name":"😺生日钞搜索线路一","type":3,"api":"csp_Yiso","searchable":1,"quickSearch":1,"filterable":0,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
+{"key":"csp_Alips",    "name":"😺生日钞搜索线路二","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
+{"key":"Zhaozy",       "name":"😺生日钞搜索线路三","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
 
 
 
