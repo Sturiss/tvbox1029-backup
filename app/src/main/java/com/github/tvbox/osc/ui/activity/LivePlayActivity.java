@@ -108,7 +108,7 @@ public class LivePlayActivity extends BaseActivity {
     private LivePlayerManager livePlayerManager = new LivePlayerManager();
     private ArrayList<Integer> channelGroupPasswordConfirmed = new ArrayList<>();
 
-//EPG   by 龍
+       //EPG   by 龍
     private static LiveChannelItem  channel_Name = null;
     private static Hashtable hsEpg = new Hashtable();
     private ChannelListView mRightEpgList;
@@ -227,7 +227,7 @@ public class LivePlayActivity extends BaseActivity {
             mRightEpgList.setAdapter(myAdapter);
             mRightEpgList.setSelection(i);
         }else{
-            Epginfo epgbcinfo = new Epginfo("暂无节目信息", "00:00", "23:59");
+            Epginfo epgbcinfo = new Epginfo("生日钞——亿万分之一的心意", "00:00", "23:59");
             arrayList.add(epgbcinfo);
             epgdata=arrayList;
             myAdapter = new MyEpgAdapter( epgdata,this,0);
