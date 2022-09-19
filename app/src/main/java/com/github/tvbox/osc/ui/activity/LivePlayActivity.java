@@ -279,7 +279,7 @@ public class LivePlayActivity extends BaseActivity {
             ((TextView) findViewById(R.id.tv_channel_bottom_number)).setText("" + channel_Name.getChannelNum());
             ((TextView) findViewById(R.id.tv_current_program_time)).setText("暂无信息");
             ((TextView) findViewById(R.id.tv_current_program_name)).setText("");
-            ((TextView) findViewById(R.id.tv_next_program_time)).setText("专业礼品定制，贵金属老婆定制，钱币生日钞礼品定制!!!!");
+            ((TextView) findViewById(R.id.tv_next_program_time)).setText("专业礼品定制，贵金属、纪念钱币、生日钞礼品定制!!!!");
             ((TextView) findViewById(R.id.tv_next_program_name)).setText("");
             if (hsEpg.containsKey(channel_Name.getChannelName())) {
                 ArrayList arrayList = (ArrayList) hsEpg.get(channel_Name.getChannelName());
