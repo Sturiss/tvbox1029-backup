@@ -227,7 +227,8 @@ public class LivePlayActivity extends BaseActivity {
             mRightEpgList.setAdapter(myAdapter);
             mRightEpgList.setSelection(i);
         }else{
-            Epginfo epgbcinfo = new Epginfo("生日钞——亿万分之一的心意", "00:00", "23:59");
+          //  Epginfo epgbcinfo = new Epginfo("暂无节目信息", "00:00", "23:59");
+           Epginfo epgbcinfo = new Epginfo("生日钞——亿万分之一的心意", "超有 ", "心意 ");
             arrayList.add(epgbcinfo);
             epgdata=arrayList;
             myAdapter = new MyEpgAdapter( epgdata,this,0);
