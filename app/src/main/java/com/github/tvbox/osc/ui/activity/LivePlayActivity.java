@@ -227,7 +227,8 @@ public class LivePlayActivity extends BaseActivity {
             mRightEpgList.setAdapter(myAdapter);
             mRightEpgList.setSelection(i);
         }else{
-            Epginfo epgbcinfo = new Epginfo("暂无节目信息", "00:00", "23:59");
+            //Epginfo epgbcinfo = new Epginfo("暂无节目信息", "00:00", "23:59");
+            Epginfo epgbcinfo = new Epginfo("超有心意", "送独一无二专属于他（她）的“钱”", "");
             arrayList.add(epgbcinfo);
             epgdata=arrayList;
             myAdapter = new MyEpgAdapter( epgdata,this,0);
@@ -277,9 +278,10 @@ public class LivePlayActivity extends BaseActivity {
             findViewById(R.id.ll_epg).setVisibility(View.VISIBLE);
             ((TextView) findViewById(R.id.tv_channel_bar_name)).setText(channel_Name.getChannelName());
             ((TextView) findViewById(R.id.tv_channel_bottom_number)).setText("" + channel_Name.getChannelNum());
-            ((TextView) findViewById(R.id.tv_current_program_time)).setText("咦，暂无信息");
-            ((TextView) findViewById(R.id.tv_current_program_name)).setText("");
-            ((TextView) findViewById(R.id.tv_next_program_time)).setText("开源测试软件,请勿商用以及播放违法内容!!!!");
+            ((TextView) findViewById(R.id.tv_current_program_time)).setText("暂无信息");
+            ((TextView) findViewById(R.id.tv_current_program_name)).setText("");            
+           // ((TextView) findViewById(R.id.tv_next_program_time)).setText("开源测试软件,请勿商用以及播放违法内容!!!!");
+              ((TextView) findViewById(R.id.tv_next_program_time)).setText("专业礼品定制：贵金属金银制品、纪念钱币、生日钞定制!!!!");
             ((TextView) findViewById(R.id.tv_next_program_name)).setText("");
             if (hsEpg.containsKey(channel_Name.getChannelName())) {
                 ArrayList arrayList = (ArrayList) hsEpg.get(channel_Name.getChannelName());
