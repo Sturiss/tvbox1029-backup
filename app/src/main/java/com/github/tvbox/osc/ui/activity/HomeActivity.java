@@ -272,10 +272,10 @@ public class HomeActivity extends BaseActivity {
                             @Override
                             public void run() {
                                 if (!useCacheConfig)
-                                    Toast.makeText(HomeActivity.this, "自定义jar加载成功", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(HomeActivity.this, "欢迎使用自定义追剧神器！！\n自定义请联系（微信）：rcgold", Toast.LENGTH_SHORT).show();
                                 initData();
                             }
-                        }, 50);
+                        }, 2000);
                     }
 
                     @Override
@@ -289,7 +289,7 @@ public class HomeActivity extends BaseActivity {
                         mHandler.post(new Runnable() {
                             @Override
                             public void run() {
-                                Toast.makeText(HomeActivity.this, "jar加载失败", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HomeActivity.this, "配置加载失败", Toast.LENGTH_SHORT).show();
                                 initData();
                             }
                         });
