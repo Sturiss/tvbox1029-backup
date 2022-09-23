@@ -272,7 +272,7 @@ public class HomeActivity extends BaseActivity {
                             @Override
                             public void run() {
                                 if (!useCacheConfig)
-                                    Toast.makeText(HomeActivity.this, "欢迎使用自定义追剧神器！！\n定制联系（微信）：rcgold", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(HomeActivity.this, "欢迎使用自定义追剧神器！\n定制联系（微信）：rcgold", Toast.LENGTH_SHORT).show();
                                 initData();
                             }
                         }, 5000);
