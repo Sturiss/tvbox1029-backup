@@ -253,7 +253,7 @@
             android:singleLine="true"
             android:text="下一集"
             android:textColor="@android:color/white"
-            android:textSize="16mm" />
+            android:textSize="22mm" />
 
         <TextView
             android:id="@+id/tv_play_pre"
@@ -271,7 +271,7 @@
             android:singleLine="true"
             android:text="上一集"
             android:textColor="@android:color/white"
-            android:textSize="16mm" />
+            android:textSize="22mm" />
 
 
         <TextView
@@ -290,7 +290,7 @@
             android:singleLine="true"
             android:text="x1"
             android:textColor="@android:color/white"
-            android:textSize="16mm" />
+            android:textSize="22mm" />
 
         <TextView
             android:id="@+id/tv_video_size"
@@ -308,7 +308,7 @@
             android:singleLine="true"
             android:text="16:9"
             android:textColor="@android:color/white"
-            android:textSize="16mm" />
+            android:textSize="22mm" />
 
     </LinearLayout>
 </FrameLayout>
