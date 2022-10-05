@@ -1,22 +1,17 @@
 {
   "sites": [   
     
-    
+{"key":"mtv_七七"     ,"name":"如接口失效，加微信“rcgold”免费获取更新，所有资源来自于网络。","type":3,"api":"csp_Kunyu77"       ,"searchable":1,"quickSearch":1,"filterable":1},   
 {"key":"csp_GitCafe"   ,"name":"📜小纸条(SP)","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "b16f91f99b7f47478bd0599cdb2fa4b4"},
-
-{"key":"mtv_七七"     ,"name":"🔥新七七","type":3,"api":"csp_Kunyu77"       ,"searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"csp_Bd"        ,"name":"💥哔嘀(SP)","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},	
 {"key":"csp_AppTT"   ,"name":"🐰兔兔(SP)","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
-
 {"key":"csp_Alist1"   ,"name":"🅿Alist合集","type":3,"api":"csp_Alist","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/app/src/main/assets/LionMovies/MaooXP/alistrcgold.json"},
 {"key":"csp_bendi"    ,"name":"🅿本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":1},
 {"key": "csp_BBB"     ,"name":"🅱️哔哩自定义","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/app/src/main/assets/LionMovies/MaooXP/bilirch.json"},
-
 {"key":"Yisou","name":"😺易搜(搜索)","type":3,"api":"csp_Yiso","searchable":1,"quickSearch":1,"filterable":0,"ext": "b16f91f99b7f47478bd0599cdb2fa4b4"},
 {"key":"csp_Alips","name":"😺喵搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext": "b16f91f99b7f47478bd0599cdb2fa4b4"},
 {"key":"Zhaozy","name":"😺找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext": "b16f91f99b7f47478bd0599cdb2fa4b4"},
-
-    
+ 
 
 {"key":"csp_KanSJ","name":"🗽看视界","api":"csp_KanSJ","type":3,"filterable":1,"quickSearch":1,"searchable":1},
 {"key":"csp_kuaikan","name":"👀快看(SP)","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
