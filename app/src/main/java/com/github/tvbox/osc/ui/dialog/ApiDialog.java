@@ -61,9 +61,9 @@ public class ApiDialog extends BaseDialog {
             @Override
             public void onClick(View v) {
                 String newApi = inputApi.getText().toString().trim();
-  // if (!newApi.isEmpty() && (newApi.startsWith("http") || newApi.startsWith("clan") || newApi.startsWith("asset"))) {
+   if (!newApi.isEmpty() && (newApi.startsWith("http") || newApi.startsWith("clan") || newApi.startsWith("asset"))) {
 
-                if (!newApi.isEmpty()) {
+     //           if (!newApi.isEmpty()) {
                     ArrayList<String> history = Hawk.get(HawkConfig.API_HISTORY, new ArrayList<String>());
                     if (!history.contains(newApi))
                         history.add(0, newApi);
