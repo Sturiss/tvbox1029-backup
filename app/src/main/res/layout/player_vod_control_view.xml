@@ -4,6 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+   
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom|right"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/tel_weixin2" />
 
     <LinearLayout
             android:id="@+id/tv_top_l_container"
