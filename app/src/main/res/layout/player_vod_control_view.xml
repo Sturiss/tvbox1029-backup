@@ -12,7 +12,7 @@
         android:layout_gravity="bottom|right"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        android:src="@drawable/tel_weixin" />
+        android:src="@drawable/tel_weixin2" />
 
 
     <LinearLayout
