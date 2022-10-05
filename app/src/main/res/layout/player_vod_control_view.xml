@@ -96,13 +96,13 @@
             android:textSize="@dimen/ts_20" />
 
         //右上角微信图标     
-        <ImageView
-                android:layout_width="@dimen/vs_180"
-                android:layout_height="@dimen/vs_180"
-                android:layout_gravity="center"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:src="@drawable/tel_weixin" />
+      //  <ImageView
+        //        android:layout_width="@dimen/vs_180"
+        //        android:layout_height="@dimen/vs_180"
+        ///       android:layout_gravity="center"
+         //       android:focusable="false"
+        //        android:focusableInTouchMode="false"
+         //       android:src="@drawable/tel_weixin" />
     </LinearLayout>
 
     <com.github.tvbox.osc.subtitle.widget.SimpleSubtitleView
