@@ -18,7 +18,7 @@
 {"key":"Yisou","name":"😹易搜┃搜索","type":3,"api":"csp_Yiso","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"https://sourl.cn/MTtpwt"},
 {"key":"Alips","name":"🦊喵搜┃搜索","type":3,"api":"csp_AliPS","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"https://sourl.cn/MTtpwt"},
 {"key":"Zhaozy","name":"🐺找资源┃搜索","type":3,"api":"csp_Zhaozy","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"https://sourl.cn/MTtpwt"},
-{"key":"push_agent","name":"🛴推送┃云盘|磁力","type":3,"api":"csp_PushAgent","playerType":1,"searchable":0,"quickSearch":0,"filterable":0,"ext":"https://sourl.cn/MTtpwt"}
+{"key":"push_agent","name":"🛴推送┃云盘|磁力","type":3,"api":"csp_PushAgent","playerType":1,"searchable":0,"quickSearch":0,"filterable":0,"ext":"https://sourl.cn/MTtpwt"}]
     
     
     "lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naHByb3h5LmNvbS9odHRwczovL2dpdGh1Yi5jb20vU3R1cmlzcy9kb3ViYW4vYmxvYi9tYWluL2FwcC9zcmMvbWFpbi9hc3NldHMvTGlvbk1vdmllcy9saXZlL2xpdmUudHh0"]}]}],
