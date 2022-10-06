@@ -460,7 +460,7 @@
            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/vs_5"
+                android:layout_marginBottom="@dimen/vs_10"
                 android:orientation="horizontal">
                 <TextView
                     android:id="@+id/ads_select"
@@ -471,7 +471,7 @@
                     android:marqueeRepeatLimit="marquee_forever"
                     android:ellipsize="marquee"
                     android:singleLine="true"
-                    android:padding="@dimen/vs_10"
+                    android:padding="@dimen/vs_6"
                     android:text="@string/diy_ads"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
