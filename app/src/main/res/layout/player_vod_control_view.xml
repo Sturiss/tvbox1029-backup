@@ -130,14 +130,9 @@
         android:paddingBottom="@dimen/vs_10"
         android:visibility="gone"
         tools:visibility="visible">
-
-        <HorizontalScrollView
-            android:scrollbars="none"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            
-                   
         
+        
+         
         //ads布局开始  
            <LinearLayout
                 android:layout_width="match_parent"
@@ -164,15 +159,15 @@
             </LinearLayout>     
         //ads布局结束        
         
+      
         
         
-        
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
          
-            
-            
-            
-            
-            
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
