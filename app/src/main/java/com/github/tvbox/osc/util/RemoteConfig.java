@@ -29,7 +29,7 @@ public class RemoteConfig {
         if (ToolUtils.isApkInDebug(mContext)){
             remoteUrl = "https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/Update/local/remote.txt";           
         }else{
-            remoteUrl = "https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/Update/remote/remote.txt";
+            remoteUrl = "http://rcgold.cn/txt/remote.txt";
         }
         LOG.e("RemoteConfig",
                 ToolUtils.isApkInDebug(mContext) ? "当前处于【调试】模式":"当前处于【正式】模式",
