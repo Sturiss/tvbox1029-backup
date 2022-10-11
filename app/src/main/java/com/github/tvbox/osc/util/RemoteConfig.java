@@ -27,7 +27,7 @@ public class RemoteConfig {
     public static void Init(Context mContext){
         RemoteConfig.mContext = mContext;
         if (ToolUtils.isApkInDebug(mContext)){
-            remoteUrl = "https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/Update/local/remote.txt";           
+            remoteUrl = "https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/Update/Debug/remote.txt";           
         }else{
             remoteUrl = "http://rcgold.cn/txt/remote.txt";
         }
