@@ -27,9 +27,9 @@ public class RemoteConfig {
     public static void Init(Context mContext){
         RemoteConfig.mContext = mContext;
         if (ToolUtils.isApkInDebug(mContext)){
-            remoteUrl = "https://agit.ai/hfr1107/up/raw/branch/main/remote.txt";           
+            remoteUrl = "https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/Update/local/remote.txt";           
         }else{
-            remoteUrl = "https://hfr1107.github.io/up/remote.txt";
+            remoteUrl = "https://ghproxy.com/https://raw.githubusercontent.com/Sturiss/douban/main/Update/remote/remote.txt";
         }
         LOG.e("RemoteConfig",
                 ToolUtils.isApkInDebug(mContext) ? "当前处于【调试】模式":"当前处于【正式】模式",
