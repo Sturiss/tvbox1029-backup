@@ -259,7 +259,8 @@ public class HomeActivity extends BaseActivity {
             }
             return;
         }
-        showLoading();
+        //showLoading();
+         showLoading("正在加载索引...");
         if (dataInitOk && !jarInitOk) {
             if (!ApiConfig.get().getSpider().isEmpty()) {
                 ApiConfig.get().loadJar(useCacheConfig, ApiConfig.get().getSpider(), new ApiConfig.LoadConfigCallback() {
