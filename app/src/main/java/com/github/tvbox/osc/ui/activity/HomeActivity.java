@@ -296,8 +296,6 @@ public class HomeActivity extends BaseActivity {
             }
             return;
         }
-        
-        
         ApiConfig.get().loadConfig(useCacheConfig, new ApiConfig.LoadConfigCallback() {
             TipDialog dialog = null;
 
