@@ -259,12 +259,12 @@ public class HomeActivity extends BaseActivity {
             }
             return;
         }
-        //showLoading();
+        showLoading();
         if (dataInitOk && !jarInitOk) {
-                        showLoading("正在加载自定义设置...");
+    //                    showLoading("正在加载自定义设置...");
 
             if (!ApiConfig.get().getSpider().isEmpty()) {
-             showLoading("正在加载自定义爬虫代码...");
+         //    showLoading("正在加载自定义爬虫代码...");
 
                 ApiConfig.get().loadJar(useCacheConfig, ApiConfig.get().getSpider(), new ApiConfig.LoadConfigCallback() {
                     @Override
@@ -301,7 +301,7 @@ public class HomeActivity extends BaseActivity {
             return;
         }
         
-               showLoading("正在加载索引...");
+      //         showLoading("正在加载索引...");
   
         
         ApiConfig.get().loadConfig(useCacheConfig, new ApiConfig.LoadConfigCallback() {
@@ -320,7 +320,7 @@ public class HomeActivity extends BaseActivity {
             @Override
             public void success() {
                                 showLoading("正在加载站点规则...");
-
+//
                 dataInitOk = true;
                 if (ApiConfig.get().getSpider().isEmpty()) {
                     jarInitOk = true;
